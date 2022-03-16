@@ -25,7 +25,7 @@ npm i @devbookhq/sdk @devbookhq/ui
 
 Install [Devbook SDK](https://github.com/devbookhq/sdk) on your frontend.
 
-We recommend using [Devbook UI](https://github.com/devbookhq/ui). The ready-to-use UI components like:
+We recommend also using [Devbook UI](https://github.com/devbookhq/ui). It's a UI library with ready-to-use components like:
 - [Code editor](https://github.com/devbookhq/ui#editor)
 - [Filesystem explorer](https://github.com/devbookhq/ui#filesystem)
 - [Terminal](https://github.com/devbookhq/ui#terminal)
