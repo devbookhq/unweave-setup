@@ -20,10 +20,10 @@ Specify the ID for your VMs.
 id = "unweave"
 ```
 
-The `id` is used when initializing [Devbook SDK](https://github.com/devbookhq/sdk) on your frontend.
+This `id` is used when initializing [Devbook SDK](https://github.com/devbookhq/sdk) on your frontend.
 ```tsx
 const devbook = useDevbook({
-  env: 'unweave', // <--- This is ID of your VM that you specified in the dbk.toml file.
+  env: 'unweave', // <--- This is ID that you specified in the dbk.toml file
   config: {
     domain: 'shared.usedevbook.com',
   },
