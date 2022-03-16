@@ -13,7 +13,7 @@ You need to create 2 files:
 - [`dbk.toml`](./dbk.toml)
 
 #### Dockerfile.dbk
-This is a Dockerfile through which you custome the VM beforehand. You can do anything: install binaries, copy files, etc.
+This is a Dockerfile through which you customize the VM beforehand. You can do anything: install binaries, copy files, etc.
 We basically create a container based on this file and run it every time a user visits Devbook-powered page.
 
 We advise to keep the size low.
