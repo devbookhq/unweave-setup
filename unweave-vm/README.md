@@ -35,7 +35,7 @@ const devbook = useDevbook({
 ```
 
 ### Publishing your VM
-Before your users can connect to their VMs, you have to deploy it. This is done via [Devbook CLI](https://github.com/devbookhq/devbookctl).
+Before your users can connect to their VMs, you have to deploy the Dockerfile. This is done via [Devbook CLI](https://github.com/devbookhq/devbookctl).
 
 #### 1. Install Devbook CLI
 ```sh
