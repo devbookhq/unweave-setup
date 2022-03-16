@@ -10,11 +10,11 @@ You need to create 2 files:
 - [`Dockerfile.dbk`](./Dockerfile.dbk)
 - [`dbk.toml`](./dbk.toml)
 
-### Dockerfile.dbk
+#### Dockerfile.dbk
 Customize the VM via a Dockerfile. You can do anything: install binaries, copy files, etc.
 We advise to keep the size of low.
 
-### dbk.toml
+#### dbk.toml
 Specify the ID for your VMs.
 ```toml
 id = "unweave"
