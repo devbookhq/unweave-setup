@@ -1,0 +1,20 @@
+FROM devbook
+
+# Install curl and wget
+RUN apt-get update && apt-get install -y \
+  curl \
+  wget
+
+# Download latest Unweave CLI
+RUN curl -s https://api.github.com/repos/unweave/cli/releases/latest \
+  | grep "browser_download_url.*_linux_amd64.tar.gz" \
+  | cut -d : -f 2,3 | tr -d '"' \
+  | wget -q -O unweave.tar.gz -i -
+
+# Unpack it and move to /usr/bin
+RUN tar xzf unweave.tar.gz
+RUN mv unweave /usr/bin
+RUN rm unweave.tar.gz
+
+# Set hostname
+RUN echo "unweave" > /etc/hostname
