@@ -23,7 +23,7 @@ Already prepared. All files and explanation is in the [./unweave-vm](./unweave-v
 npm i @devbookhq/sdk @devbookhq/ui
 ```
 
-Install [Devbook SDK](https://github.com/devbookhq/sdk). It's a React hook that controls the VM.
+Install [Devbook SDK](https://github.com/devbookhq/sdk) on your frontend.
 
 We recommend using [Devbook UI](https://github.com/devbookhq/ui). The ready-to-use UI components like:
 - [Code editor](https://github.com/devbookhq/ui#editor)
