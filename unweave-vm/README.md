@@ -1,6 +1,6 @@
 # Unweave VM
 
-**We already set up and deployed everything for you. No need to do anything on your side.**
+👉 **We already set up and deployed everything for you. No need to do anything on your side.**
 
 This is just an explanation of what we did.
 
