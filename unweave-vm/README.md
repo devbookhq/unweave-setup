@@ -50,6 +50,8 @@ cd unweave-vm
 #### 3. Deploy your VM setup with Devbook CLI
 Make sure Docker is running.
 
+🚨 We currenly don't automatically update our servers when you deploy a new version of your VM. Please ping us on email, WhatsApp or Slack and we update it ASAP!
+
 ```sh
 dbk push
 ```
