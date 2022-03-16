@@ -36,10 +36,7 @@ Check out the [example](./example) directory with full React app for Unweave use
 Sample code snippet
 ```tsx
 // Import the hook
-import {
-  useDevbook,
-  DevbookStatus,
-} from '@devbookhq/sdk'
+import { useDevbook } from '@devbookhq/sdk'
 
 // Import terminal from our UI library
 import { Terminal } from '@devbookhq/ui'
