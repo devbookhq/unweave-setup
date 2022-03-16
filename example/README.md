@@ -1,5 +1,7 @@
 # React app using Devbookk SDK
 
+All Devbook code is in the [`src/App.tsx`](./src/App.tsx) file.
+
 ### `npm start`
 
 Runs the app in the development mode.\
